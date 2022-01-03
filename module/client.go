@@ -15,7 +15,7 @@ import (
 	"github.com/go-git/go-git/v5"
 	"go.uber.org/zap"
 
-	"github.com/vrongmeal/caddygit"
+	"github.com/rigon/caddygit"
 )
 
 var (

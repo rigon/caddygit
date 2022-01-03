@@ -6,9 +6,8 @@ import (
 	"sync"
 
 	"github.com/caddyserver/caddy/v2"
+	"github.com/rigon/caddygit/module"
 	"go.uber.org/zap"
-
-	"github.com/vrongmeal/caddygit/module"
 )
 
 func init() {

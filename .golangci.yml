@@ -65,7 +65,7 @@ linters-settings:
     simplify: true
 
   goimports:
-    local-prefixes: github.com/vrongmeal/caddygit
+    local-prefixes: github.com/rigon/caddygit
 
   misspell:
     locale: US

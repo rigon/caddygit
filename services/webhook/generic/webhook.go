@@ -9,7 +9,7 @@ import (
 	"github.com/caddyserver/caddy/v2"
 	"github.com/go-git/go-git/v5/plumbing"
 
-	"github.com/vrongmeal/caddygit/services/webhook"
+	"github.com/rigon/caddygit/services/webhook"
 )
 
 func init() {

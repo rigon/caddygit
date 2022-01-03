@@ -1,4 +1,4 @@
-module github.com/vrongmeal/caddygit
+module github.com/rigon/caddygit
 
 go 1.14
 

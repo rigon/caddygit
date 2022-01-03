@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/vrongmeal/caddygit"
+	"github.com/rigon/caddygit"
 )
 
 // HookConf is the configuration of hook that can be used by different

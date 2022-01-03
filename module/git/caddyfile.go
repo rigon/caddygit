@@ -8,8 +8,8 @@ import (
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
 	"github.com/caddyserver/caddy/v2/caddyconfig/httpcaddyfile"
 	"github.com/caddyserver/caddy/v2/modules/caddyhttp"
-	"github.com/vrongmeal/caddygit"
-	"github.com/vrongmeal/caddygit/module"
+	"github.com/rigon/caddygit"
+	"github.com/rigon/caddygit/module"
 )
 
 type CaddyfileSettings struct {

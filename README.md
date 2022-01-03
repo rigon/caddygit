@@ -21,7 +21,7 @@ import (
 
 	// plug in Caddy modules here
 	_ "github.com/caddyserver/caddy/v2/modules/standard"
-	_ "github.com/vrongmeal/caddygit/module/git" // Yay!!!
+	_ "github.com/rigon/caddygit/module/git" // Yay!!!
 )
 
 func main() {
@@ -33,7 +33,7 @@ func main() {
 
 ```bash
 $ xcaddy build v2.4.6 \
-    --with github.com/vrongmeal/caddygit/module/git
+    --with github.com/rigon/caddygit/module/git
 ```
 
 ## API structure
@@ -53,7 +53,7 @@ As a top level app for global service.
                     // Git repository info.
                     "repo": {
                         // HTTP URL of the git repository.
-                        "url": "http://github.com/vrongmeal/caddygit",
+                        "url": "http://github.com/rigon/caddygit",
 
                         // Path to clone the repository in. If path specified
                         // exists and is a git repository, it simply opens the
@@ -69,7 +69,7 @@ As a top level app for global service.
                         // repositories. If authenticating via access token,
                         // set the auth_secret equal to the value of access token
                         // and auth_user can be omitted.
-                        "auth_user": "vrongmeal",
+                        "auth_user": "rigon",
                         "auth_secret": "password",
 
                         // Specifies whether to clone only the specified branch.
@@ -120,7 +120,7 @@ As an handler within a route.
                     // Git repository info.
                     "repo": {
                         // HTTP URL of the git repository.
-                        "url": "http://github.com/vrongmeal/caddygit",
+                        "url": "http://github.com/rigon/caddygit",
 
                         // Path to clone the repository in. If path specified
                         // exists and is a git repository, it simply opens the
@@ -136,7 +136,7 @@ As an handler within a route.
                         // repositories. If authenticating via access token,
                         // set the auth_secret equal to the value of access token
                         // and auth_user can be omitted.
-                        "auth_user": "vrongmeal",
+                        "auth_user": "rigon",
                         "auth_secret": "password",
 
                         // Specifies whether to clone only the specified branch.
@@ -212,7 +212,7 @@ Here is an example:
         order git before file_server
     }
     localhost:8000 {
-        git /update "http://github.com/vrongmeal/caddygit" /caddygit
+        git /update "http://github.com/rigon/caddygit" /caddygit
         file_server {
             browse
             root /caddygit

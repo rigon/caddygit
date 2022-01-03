@@ -11,7 +11,7 @@ import (
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/modules/caddyhttp"
 
-	"github.com/vrongmeal/caddygit"
+	"github.com/rigon/caddygit"
 )
 
 func init() {
